@@ -85,6 +85,20 @@ abstract class Enum
     }
 
     /**
+     * Check if is valid enum value
+     *
+     * @static
+     *
+     * @param $value
+     *
+     * @return bool
+     */
+    public static function isValid($value)
+    {
+        return in_array($value, self::values());
+    }
+
+    /**
      * Check if is valid enum key
      *
      * @static
