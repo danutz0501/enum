@@ -1,0 +1,23 @@
+{
+    "name": "danielcosta/enum",
+    "description": "PHP Enum Emulator",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Costa",
+            "email": "danielcosta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanielCosta\\Enum\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
+}
