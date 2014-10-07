@@ -113,6 +113,19 @@ abstract class Enum
     }
 
     /**
+     * Return key for value
+     * @static
+     *
+     * @param $value
+     *
+     * @return mixed
+     */
+    public static function search($value)
+    {
+        return array_search($value, array_combine(self::keys(), self::values()));
+    }
+
+    /**
      * Returns a value when called statically like so: MyEnum::SOME_VALUE() given SOME_VALUE is a class constant
      *
      * @param string $name

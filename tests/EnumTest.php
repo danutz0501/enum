@@ -116,15 +116,30 @@ class EnumTest extends \PHPUnit_Framework_TestCase
         EnumFixture::UNKNOWN();
     }
 
+    /**
+     * isValid()
+     */
+    public function testIsValid()
+    {
+        $this->assertTrue(EnumFixture::isValid('foo'));
+        $this->assertFalse(EnumFixture::isValid('baz'));
+    }
+
+    /**
+     * ssValidKey()
+     */
     public function testIsValidKey()
     {
         $this->assertTrue(EnumFixture::isValidKey('FOO'));
         $this->assertFalse(EnumFixture::isValidKey('BAZ'));
     }
 
-    public function testIsValid()
+    /**
+     * search()
+     */
+    public function testSearch()
     {
-        $this->assertTrue(EnumFixture::isValid('foo'));
-        $this->assertFalse(EnumFixture::isValid('baz'));
+        $this->assertEquals('FOO', EnumFixture::search('foo'));
+        $this->assertNotEquals('FOO', EnumFixture::isValidKey('baz'));
     }
 }
