@@ -1,4 +1,3 @@
-enum
-====
+# PHP Enum Emulator
 
 PHP Enum Emulator
