@@ -28,6 +28,16 @@ class EnumTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * getKey()
+     */
+    public function testGetKey()
+    {
+        $value = new EnumFixture(EnumFixture::FOO);
+        $this->assertEquals('FOO', $value->getKey());
+        $this->assertNotEquals('BA', $value->getKey());
+    }
+
+    /**
      * @expectedException \UnexpectedValueException
      */
     public function testInvalidValueString()

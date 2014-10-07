@@ -51,6 +51,14 @@ abstract class Enum
     }
 
     /**
+     * @return mixed
+     */
+    public function getKey()
+    {
+        return self::search($this->value);
+    }
+
+    /**
      * @return string
      */
     public function __toString()
