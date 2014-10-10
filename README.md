@@ -1,4 +1,5 @@
-# PHP Enum Emulator [![Build Status](https://travis-ci.org/danielcosta/enum.png?branch=master)](https://travis-ci.org/danielcosta/enum) [![Coverage Status](https://img.shields.io/coveralls/danielcosta/enum.svg)](https://coveralls.io/r/danielcosta/enum)
+# PHP Enum Emulator
+[![Latest Stable Version](https://poser.pugx.org/danielcosta/enum/v/stable.svg)](https://packagist.org/packages/danielcosta/enum) [![Build Status](https://travis-ci.org/danielcosta/enum.png?branch=master)](https://travis-ci.org/danielcosta/enum) [![Coverage Status](https://img.shields.io/coveralls/danielcosta/enum.svg)](https://coveralls.io/r/danielcosta/enum) [![License](https://poser.pugx.org/danielcosta/enum/license.svg)](https://packagist.org/packages/danielcosta/enum)
 
 ## Why?
 
