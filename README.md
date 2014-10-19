@@ -1,5 +1,9 @@
 # PHP Enum Emulator
-[![Latest Stable Version](https://poser.pugx.org/danielcosta/enum/v/stable.svg)](https://packagist.org/packages/danielcosta/enum) [![Build Status](https://travis-ci.org/danielcosta/enum.png?branch=master)](https://travis-ci.org/danielcosta/enum) [![Coverage Status](https://img.shields.io/coveralls/danielcosta/enum.svg)](https://coveralls.io/r/danielcosta/enum) [![License](https://poser.pugx.org/danielcosta/enum/license.svg)](https://packagist.org/packages/danielcosta/enum)
+[![Latest Stable Version](https://poser.pugx.org/danielcosta/enum/v/stable.svg)](https://packagist.org/packages/danielcosta/enum)
+[![Build Status](https://travis-ci.org/danielcosta/enum.png?branch=master)](https://travis-ci.org/danielcosta/enum)
+[![Coverage Status](https://img.shields.io/coveralls/danielcosta/enum.svg)](https://coveralls.io/r/danielcosta/enum) 
+[![License](https://poser.pugx.org/danielcosta/enum/license.svg)](https://packagist.org/packages/danielcosta/enum)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/fe7297b1-5021-4f35-854d-c96ca21e6952/mini.png)](https://insight.sensiolabs.com/projects/fe7297b1-5021-4f35-854d-c96ca21e6952)
 
 ## Why?
 
